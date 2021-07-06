@@ -1,3 +1,6 @@
+body {
+  padding: 10px;
+}
 header {
   border: 1px black dashed;
   border-radius: 10px;
@@ -16,6 +19,9 @@ footer {
   padding: 10px;
   margin: 10px;
 }
+#hello-world > div {
+  text-align: justify;
+}
 #about-me {
   border: 1px black dashed;
   border-radius: 10px;
@@ -33,4 +39,25 @@ footer {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
+}
+#my-portfolio {
+  border: 1px black dashed;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: space-around;
+}
+#skills > div {
+  flex-grow: 1;
+  flex-basis: 30%;
+  min-width: 200px;
+  padding: 10px;
+  margin: 5px;
 }
