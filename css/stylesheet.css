@@ -68,27 +68,27 @@ ul > li {
   list-style: none;
 }
 li:before {
-  content: "\f14a"; 
+  content: "\f14a";
   font-family: FontAwesome;
   display: inline-block;
-  margin-left: -1.3em; 
+  margin-left: -1.3em;
   width: 1.3em;
 }
-a{
+a {
   text-decoration: none;
 }
 
-ul#contact-me > li{
+ul#contact-me > li {
   transition: 2s ease;
-  width:150px;
-  
+  width: 150px;
 }
-ul#contact-me > li:hover{
+ul#contact-me > li:hover {
   transform: translate(2%);
-	transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 i {
   transition: 1s ease;
 }
-i:hover{
-transform: rotate(360deg) scale(1.2);}
+i:hover {
+  transform: rotate(360deg) scale(1.2);
+}
