@@ -121,12 +121,11 @@ section > div {
   margin: 5px;
 }
 
-ul#contact-me > li {
+#contact > div {
   transition: 2s ease;
-  width: 150px;
 }
-ul#contact-me > li:hover {
-  transform: translate(2%);
+#contact > div:hover {
+  transform: scale(1.2);
   transition: transform 0.5s ease;
 }
 /* end classes */
