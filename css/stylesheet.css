@@ -12,9 +12,9 @@ min-height: 100px;
 }
 header > div {
   font-family: 'Kurale', serif;
-    font-size: xxx-large;
-    font-weight: bold;
-    text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
 }
 footer {
  min-height: 100px;
@@ -80,6 +80,7 @@ section > div {
 }
 #hello-world > div, #about-me > div, #my-way > div {
   text-align: justify;
+  text-indent: 30px;
 }
 #about-me {
 
@@ -97,14 +98,14 @@ section > div {
 
 
 }
-#skills, #contact {
+#skills, #contact, #offi {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
   align-content: space-around;
-      margin: 2% auto;
+  margin: 2% auto;
 }
 #skills > div {
 
@@ -164,3 +165,61 @@ nav a {
   }
 }
 /* end header menu */
+
+#ava{
+  border-radius: 10px;
+  background-image: url(../portfolio/ava.webp);
+  background-size: cover;
+  height: 100px;
+  width:100px;
+ 
+  
+  padding: 10px;
+  margin: 5px;
+}
+#info{
+  flex-basis: 40%;
+  min-width: 200px;
+  padding: 10px;
+  margin: 5px;
+}
+blockquote {
+margin: 0;
+font-family: 'Kurale', serif;
+  font-size: 25px;
+  font-weight: bold;
+padding: 10px;
+
+position: relative;
+
+text-align: center;
+}
+blockquote:before, blockquote:after {
+font-size: 45px;
+
+position: absolute;
+height: 2px;
+left: 40px;
+right: 40px;
+line-height: .5;
+background: linear-gradient(to right, #101010 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #131415 55%);
+font-family: serif;
+}
+blockquote:before {
+content: "\201C";
+top: 5px;
+}
+blockquote:after {
+content: "\201D";
+bottom: -2px;
+}
+blockquote p {
+font-size: 25px;
+margin-bottom: -6px;
+}
+blockquote footer {
+margin-bottom: 1em;
+}
+blockquote cite {
+font-style: normal;
+}
