@@ -2,6 +2,8 @@
 body {
   padding: 10px;
  background-color: ghostwhite;
+ max-width: 80%;
+ margin: auto;
 }
 header {
 min-height: 100px;
