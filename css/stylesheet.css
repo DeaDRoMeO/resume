@@ -165,9 +165,6 @@ blockquote p {
   font-size: 25px;
   margin-bottom: -6px;
 }
-blockquote footer {
-  margin-bottom: 1em;
-}
 blockquote cite {
   font-style: normal;
 }
