@@ -1,42 +1,44 @@
 /* tags */
 body {
   padding: 10px;
- background-color: ghostwhite;
- max-width: 80%;
- margin: auto;
+  background-color: ghostwhite;
+  max-width: 80%;
+  margin: auto;
 }
 header {
-min-height: 100px;
+  min-height: 100px;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-
 }
 header > div {
-  font-family: 'Kurale', serif;
+  font-family: "Kurale", serif;
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
 }
 footer {
- min-height: 100px;
+  min-height: 100px;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
 }
-h3{
+h3 {
   padding-left: 30px;
- font-family: 'Kurale', serif;
+  font-family: "Kurale", serif;
   font-size: x-large;
   margin-bottom: 6px;
 }
-h4{
-   margin-top: -3px;
-   font-family: 'Kurale', serif;
+h4 {
+  margin-top: -3px;
+  font-family: "Kurale", serif;
 }
 i {
   padding-right: 4px;
   transition: 1s ease;
+}
+i:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 ul > li {
   list-style: none;
@@ -50,20 +52,18 @@ li:before {
 }
 a {
   text-decoration: none;
-  color:black;
-  font-family: 'Kurale', serif;
+  color: black;
+  font-family: "Kurale", serif;
   font-weight: bold;
 }
-i:hover {
-  transform: rotate(360deg) scale(1.2);
-}
-section, header, footer{
+section,
+header,
+footer {
   -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
--moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
-
-section{
+section {
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -71,36 +71,20 @@ section{
   padding-right: 20px;
   margin: 10px;
 }
+section > div {
+  font-family: "Bellota Text", cursive;
+}
 /* end tags */
 /* classes */
-section > div {
-  font-family: 'Bellota Text', cursive;;
-}
-#hello-world {
-  
-  
-}
-#hello-world > div, #about-me > div, #my-way > div {
+#hello-world > div,
+#about-me > div,
+#my-way > div {
   text-align: justify;
   text-indent: 30px;
 }
-#about-me {
-
-  
-}
-#my-skills {
-  
-  
-}
-#my-way {
-  
- 
-}
-#my-portfolio {
-
-
-}
-#skills, #contact, #offi {
+#skills,
+#contact,
+#offi {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -110,20 +94,17 @@ section > div {
   margin: 2% auto;
 }
 #skills > div {
-
   flex-basis: 30%;
   min-width: 200px;
   padding: 10px;
   margin: 5px;
 }
 #contact > div {
-
   flex-basis: 10%;
   min-width: 100px;
   padding: 10px;
   margin: 5px;
 }
-
 #contact > div {
   transition: 2s ease;
 }
@@ -131,97 +112,63 @@ section > div {
   transform: scale(1.2);
   transition: transform 0.5s ease;
 }
-/* end classes */
-/* header menu */
-
-nav a,
-nav:before,
-nav div:before {
-  display: inline-block;
-  padding: 20px 0;
-  text-align: center;
-  cursor: pointer;
-}
-nav a {
-  width: 24%; /* 4 пункта меню, то есть 100%/4 */
-  text-decoration: none;
-}
-
-@media (max-width: 800px) {
-  nav a,
-  nav:before,
-  nav div:before {
-    width: 100%;
-  }
-  nav:before {
-    content: "Меню";
-  }
-  nav:focus:before {
-    content: none;
-  }
-  nav:focus div:before {
-    content: "Свернуть";
-  }
-  nav:not(:focus) div:not(:active) {
-    display: none;
-  }
-}
-/* end header menu */
-
-#ava{
+#ava {
   border-radius: 10px;
   background-image: url(../portfolio/ava.webp);
   background-size: cover;
   height: 100px;
-  width:100px;
- 
-  
+  width: 100px;
   padding: 10px;
   margin: 5px;
 }
-#info{
+#info {
   flex-basis: 40%;
   min-width: 200px;
   padding: 10px;
   margin: 5px;
 }
 blockquote {
-margin: 0;
-font-family: 'Kurale', serif;
+  margin: 0;
+  font-family: "Kurale", serif;
   font-size: 25px;
   font-weight: bold;
-padding: 10px;
-
-position: relative;
-
-text-align: center;
+  padding: 10px;
+  position: relative;
+  text-align: center;
 }
-blockquote:before, blockquote:after {
-font-size: 45px;
-
-position: absolute;
-height: 2px;
-left: 40px;
-right: 40px;
-line-height: .5;
-background: linear-gradient(to right, #101010 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #131415 55%);
-font-family: serif;
+blockquote:before,
+blockquote:after {
+  font-size: 45px;
+  position: absolute;
+  height: 2px;
+  left: 40px;
+  right: 40px;
+  line-height: 0.5;
+  background: linear-gradient(
+      to right,
+      #101010 45%,
+      transparent 45%,
+      transparent
+    ),
+    linear-gradient(to right, transparent, transparent 55%, #131415 55%);
+  font-family: serif;
 }
 blockquote:before {
-content: "\201C";
-top: 5px;
+  content: "\201C";
+  top: 5px;
 }
 blockquote:after {
-content: "\201D";
-bottom: -2px;
+  content: "\201D";
+  bottom: -2px;
 }
 blockquote p {
-font-size: 25px;
-margin-bottom: -6px;
+  font-size: 25px;
+  margin-bottom: -6px;
 }
 blockquote footer {
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 blockquote cite {
-font-style: normal;
+  font-style: normal;
 }
+/* end classes */
