@@ -12,7 +12,7 @@ t.onload = function () {
 setTimeout(function () {
   for (let oneclient of massClient) {
     let div = document.createElement("div");
-    div.innerHTML = `<h5>${oneclient.url}</h5><div>${oneclient.description}</div>`;
+    div.innerHTML = `<h5>${oneclient.url}</h5><div class="cat">${oneclient.cat}</div><div class="desc">${oneclient.description}</div>`;
     divClient.appendChild(div);
     console.log(oneclient);
   }
