@@ -1,152 +1,194 @@
 [
     {
+        "level": "hard",
         "url": "floksin.ru",
         "cat": "phpBB",
         "description": "Мой первый клиент...Форум был обновлен до актуальной версии, переработан стиль, установлено порядка 10 модификаций и множество ручных доработок."
     },
     {
+        "level": "hard",
         "url": "tridental.ru",
         "cat": "WordPress",
         "description": "Переработка внешнего вида и наполнения страниц. Установлено и настроено порядка 8 плагинов."
     },
     {
+        "level": "hard",
         "url": "азияграндавто.рф",
         "cat": "Custom CMS",
         "description": "Очистка сайта от вирусов и вредоносных вставок."
     },
     {
+        "level": "middle",
         "url": "etk-komplekt.ru",
         "cat": "OpenCart",
         "description": "Настройка ЧПУ (человекопонятных урлов)."
     },
     {
+        "level": "middle",
         "url": "clubwithme.com",
         "cat": "WordPress",
         "description": "Визуальные доработки шаблонов, установка 4 плагинов, добавление форм обратной связи и функционала личного кабинета."
     },
     {
+        "level": "easy",
         "url": "инженермонтаж.рф",
         "cat": "WordPress",
         "description": "Работа с наполнением и создание новых страниц в общей стилистике, мелкие правки кода."
     },
     {
+        "level": "easy",
         "url": "дом-уют.рф",
         "cat": "Custom CMS",
         "description": "Устранение ошибок отображения после копирования сайта, восстановление правильных путей до изображений."
     },
     {
+        "level": "easy",
         "url": "arenda-manipuliatorov.ru",
         "cat": "Custom CMS",
         "description": "Визуальные доработки, вывод кастомных блоков с различной информацией."
     },
     {
+        "level": "hard",
         "url": "uahunter.com.ua",
         "cat": "DLE",
         "description": "Полное обновление до актуальной версии + 100 плагинов, конвертация форума phpBB на свежую ветку с разработкой дизайна. Администрирование ресурса на постоянной основе."
     },
     {
+        "level": "easy",
         "url": "irrigator.ru",
         "cat": "Bitrix",
         "description": "Тестирование и анализ структуры сайта, его отображения на различных устройствах на предмет проблем и ошибок."
     },
     {
+        "level": "middle",
         "url": "lizey8.edu.kz",
         "cat": "Joomla",
         "description": "Устранение критических ошибок php в работе сайта."
     },
     {
+        "level": "hard",
         "url": "ruckp.org",
         "cat": "phpBB",
         "description": "Конвертация форума и стиля на актуальную ветку, установка и настройка 13 модификаций, мелкие доработки стиля и кода."
     },
     {
+        "level": "hard",
         "url": "alnado.ru",
         "cat": "phpBB",
         "description": "Конвертация форума и стиля на актуальную ветку, установка и настройка 8 модификаций, мелкие доработки стиля и кода."
     },
     {
+        "level": "middle",
         "url": "clubcx5.ru",
         "cat": "phpBB",
         "description": "Восстановление работоспособности форума после серверного сбоя."
     },
     {
+        "level": "easy",
         "url": "mertrade.ru",
         "cat": "Bitrix",
         "description": "Мелкие стилевые правки, добавление новых элементов на страницы."
     },
     {
+        "level": "hard",
         "url": "sferon.ru",
         "cat": "Bitrix",
         "description": "Мелкие стилевые правки, добавление новых элементов на страницы, интеграция форм обратной связи с другими CMS."
     },
     {
+        "level": "hard",
         "url": "greenparkan.com",
         "cat": "WordPress",
         "description": "Реализация мультиязычности с полным переводом всего контента."
     },
     {
+        "level": "easy",
         "url": "tobgarden.ru",
         "cat": "Bitrix",
         "description": "Первый негативный опыт, мелкие стилевые правки, которые не были оплачены, владельцу ресурса отдельный привет."
     },
     {
+        "level": "hard",
         "url": "4050.by",
         "cat": "Bitrix",
         "description": "Оптимизация скорости загрузки сайта под GooglePageSpeed."
     },
     {
+        "level": "easy",
         "url": "euromed59.ru",
         "cat": "MODX Evo",
         "description": "Восстановление работоспособности онлайн оплаты."
     },
     {
+        "level": "hard",
         "url": "voronezh-grand.ru",
         "cat": "WordPress",
         "description": "Очистка сайта от вирусов и вредоносных вставок."
     },
     {
+        "level": "easy",
         "url": "oknalux78.ru",
         "cat": "WordPress",
         "description": "Создание и настройка формы обратной связи."
     },
     {
+        "level": "hard",
         "url": "100vekov.ru",
         "cat": "WordPress",
         "description": "Очистка сайта от вирусов и вредоносных вставок."
     },
     {
+        "level": "hard",
         "url": "travelcar39.ru",
         "cat": "WordPress",
         "description": "Реализация мультиязычности с полным переводом всего контента. Мелкие доработки в шаблонах сайта."
     },
     {
+        "level": "middle",
         "url": "velan.ru",
         "cat": "Bitrix",
         "description": "Стилевые доработки сайта. Добавление блоков и адаптация под мобильные устройства."
     },
     {
+        "level": "middle",
         "url": "provocation-tattoo.ru",
         "cat": "Bitrix",
         "description": "Стилевые доработки сайта. Добавление блоков и адаптация под мобильные устройства, устранение проблем с отображением сайта"
     },
     {
+        "level": "middle",
         "url": "cats.seovad.ru",
         "cat": "WordPress",
         "description": "Стилевые доработки, устранение проблем с мультиязчным плагином и конструктором сайта."
     },
     {
+        "level": "hard",
         "url": "lentorgprom.com",
         "cat": "WordPress",
         "description": "Полное обновление до актуальной версии + 30 плагинов."
     },
     {
+        "level": "middle",
         "url": "ses-moskva-sanepidemstantsiya.ru",
         "cat": "WordPress",
         "description": "Оптимизация скорости загрузки сайта под GooglePageSpeed."
     },
     {
+        "level": "hard",
         "url": "ventablok.com",
         "cat": "WordPress",
         "description": "Реализация мультиязычности с полным переводом всего контента."
+    },
+    {
+        "level": "middle",
+        "url": "proektzdorovya.ru",
+        "cat": "UMI.CMS",
+        "description": "Визуальные правки, вывод дополнительных полей в шаблонах сайта."
+    },
+    {
+        "level": "hard",
+        "url": "hitsant.ru",
+        "cat": "Bitrix",
+        "description": "Настройка выделенного сервера, оптимизация работы модулей, оптимизация и очистка базы данных от более чем 10 Гб мусора."
     }
 ]
