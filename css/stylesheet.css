@@ -194,11 +194,23 @@ blockquote cite {
 
 /* end classes */
 /* portfolio */
+.easy {
+  background-image: linear-gradient(to bottom, #ffcc00, #ffc757);
+}
+
+.normal {
+  background-image: linear-gradient(to bottom, #9acd32, #228b22);
+}
+
+.hard {
+  background-image: linear-gradient(to bottom, #d95030, #cc0605);
+}
+
 #myclient {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-height: 300px;
+  max-height: 445px;
   overflow: auto;
 }
 
@@ -207,30 +219,47 @@ blockquote cite {
   font-weight: bold;
   font-family: "Kurale", serif;
   text-align: center;
+  -webkit-box-shadow: inset 0px 5px 10px 2px rgb(34 60 80 / 20%);
+  -moz-box-shadow: inset 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: inset 0px 5px 10px 2px rgb(34 60 80 / 20%);
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  height: 55px;
 }
 
 #myclient>div {
   padding: 10px;
   margin: 25px 10px;
-  width: 200px;
+  width: 220px;
   -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .desc {
   text-align: center;
+  font-weight: bold;
+  -webkit-box-shadow: inset 0px 5px 10px 2px rgb(34 60 80 / 20%);
+  -moz-box-shadow: inset 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: inset 0px 5px 10px 2px rgb(34 60 80 / 20%);
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  height: 180px;
 }
 
 .cat {
   text-align: center;
   padding: 10px;
-  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -webkit-box-shadow: inset 0px 5px 10px 2px rgb(34 60 80 / 20%);
+  -moz-box-shadow: inset 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: inset 0px 5px 10px 2px rgb(34 60 80 / 20%);
   border-radius: 10px;
-  background: ghostwhite;
+  background: whitesmoke;
 }
 
 .offirst {
